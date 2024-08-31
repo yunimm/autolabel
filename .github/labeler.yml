@@ -14,11 +14,6 @@ Documentation:
 - changed-files:
   - any-glob-to-any-file: ['docs/*', 'guides/*']
 
-# Add 'Documentation' label to any change to .md files within the entire repository 
-Documentation:
-- changed-files:
-  - any-glob-to-any-file: '**/*.md'
-
 # Add 'source' label to any change to src files within the source dir EXCEPT for the docs sub-folder
 source:
 - all:
